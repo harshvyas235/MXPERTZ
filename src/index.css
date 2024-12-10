@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add these styles to your Tailwind configuration */
+.bg-gray-900 {
+    background-color: #1a202c; /* Dark background */
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .text-gray-400 {
+    color: #a0aec0; /* Subtle text */
+  }
+  
+  .bg-gray-800 {
+    background-color: #2d3748; /* Card background */
+  }
+  
+  .hover\:scale-105:hover {
+    transform: scale(1.05); /* Smooth hover effect */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
